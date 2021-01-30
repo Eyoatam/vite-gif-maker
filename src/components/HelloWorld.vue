@@ -24,7 +24,7 @@
 				</button>
 			</div>
 			<div class="flex justify-center text-center mt-7">
-				<img controls width="250" :src="gif" />
+				<img width="250" :src="gif" />
 			</div>
 		</div>
 	</div>
