@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vuedx-typecheck . && vite build",
+    "build:check": "vuedx-typecheck . && vite build",
+    "build": "vite build",
+    "build:cross": "cross-env NODE_ENV=production vite build",
     "serve": "vite preview"
   },
   "dependencies": {
